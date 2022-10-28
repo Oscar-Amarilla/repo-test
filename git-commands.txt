@@ -53,11 +53,10 @@ git commit -m "mensaje"
 # Para borrar un archivo del proyecto.
 git rm x
 
-# Para descomprometer el archivo eliminado, se debe volver a comprometer 
+# Para efectivizar la eliminación de un archivo se debe volver a comprometer 
 # el proyecto.
   
-# Si se desea recuperar el archivo eliminado se realizan los siguientes
-# pasos.
+# Si se desea recuperar un archivo eliminado (aún no comprometido) se realizan# los siguientes pasos.
 git restore --staged x
 
 git restore
